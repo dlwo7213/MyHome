@@ -14,6 +14,9 @@ public class IndexController {
 	@RequestMapping("/index.do")
 	public String execute(HttpServletRequest req, HttpServletResponse resp) {
 		System.out.println("==========|IndexController.execute()|==========");
+		
+		System.out.println("v0.02 이후 생성됨.");
+		
 		return "/index";
 	}
 }
