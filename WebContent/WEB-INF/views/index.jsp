@@ -1,16 +1,27 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Project with GIT</title>
+<style>
+	body,h1 {
+		font-family: 궁서체;
+	}
+	h2 {
+		color:red;
+	}
+</style>
 </head>
 <body>
-	<h1>Project with GIT</h1>
+	<h1>프로젝트 - 깃으로 관리</h1>
 	<hr/>
-	
+		<a href="/account/join.do">회원가입</a>
+	<h2>GIT 이란..?</h2>
+	<p>
+		SOURCE 코드 관리를 위한 분산 버전 관리 시스템이다.
+	</p>	
+	!!메롱!!
 </body>
 </html>
